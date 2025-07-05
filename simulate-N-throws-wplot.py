@@ -16,6 +16,10 @@ while Total <= N:
         Total += 1
 
 xplot = ["wins","losses"]
-yplot = [Win, Loss]
+yplot = [100*Win/(Win+Loss), 100*Loss/(Win+Loss)]
 
-print(yplot)
+plt.bar(xplot,yplot)
+plt.title("risk defender/attacker simulation N = 10000")
+plt.xlabel("result")
+plt.ylabel("percentage chance of given result")
+plt.show()
