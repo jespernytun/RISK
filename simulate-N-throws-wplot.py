@@ -1,4 +1,4 @@
-from simulatethrow import Kast
+from simulate-throw import Kast
 import matplotlib.pyplot as pyplot
 
 N = 1000
