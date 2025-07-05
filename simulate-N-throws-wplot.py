@@ -1,4 +1,4 @@
-from RISKsimulator import Kast
+from simulatethrow import Kast
 import matplotlib.pyplot as pyplot
 
 N = 1000
